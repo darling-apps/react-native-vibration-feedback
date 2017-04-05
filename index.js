@@ -1,5 +1,6 @@
+
 import { NativeModules } from 'react-native';
 
-const { ReactNativeVibration } = NativeModules;
+const { RNReactNativeVibration } = NativeModules;
 
-export default ReactNativeVibration;
+export default RNReactNativeVibration;
