@@ -1,4 +1,5 @@
 
+
 # react-native-vibration-feedback
 
 ## Getting started
@@ -42,4 +43,12 @@ import RNVibrationFeedback from 'react-native-vibration-feedback';
 // TODO: What to do with the module?
 RNVibrationFeedback;
 ```
-  
+
+### ID parameter
+
+The ID parameter is used to define what vibration feedback you want to use. In iOS you can use any ID from AudioServices on [this list.](http://iphonedevwiki.net/index.php/AudioServices) For Android you can use the IDs from the table bellow.
+
+|  ID  | Name |           Description           |
+|:----:|:----:|:-------------------------------:|
+| 1519 | Peek | Weak short vibration            |
+| 1520 | Pop  | Strong short vibration          |
