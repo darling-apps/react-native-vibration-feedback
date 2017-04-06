@@ -2,13 +2,11 @@
 
 # react-native-vibration-feedback
 
+Vibration feedback for React Native applications.
+
 ## Getting started
 
 `$ npm install react-native-vibration-feedback --save`
-
-### Mostly automatic installation
-
-`$ react-native link react-native-vibration-feedback`
 
 ### Manual installation
 
@@ -40,8 +38,7 @@
 ```javascript
 import RNVibrationFeedback from 'react-native-vibration-feedback';
 
-// TODO: What to do with the module?
-RNVibrationFeedback;
+RNVibrationFeedback.vibrateWith(1521);
 ```
 
 ### ID parameter
@@ -52,3 +49,4 @@ The ID parameter is used to define what vibration feedback you want to use. In i
 |:----:|:----:|:-------------------------------:|
 | 1519 | Peek | Weak short vibration            |
 | 1520 | Pop  | Strong short vibration          |
+| 1521 | Nope | Three pops in a short interval  |
