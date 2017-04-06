@@ -1,6 +1,6 @@
 
 import { NativeModules } from 'react-native';
 
-const { RNReactNativeVibration } = NativeModules;
+const { RNVibrationFeedback } = NativeModules;
 
-export default RNReactNativeVibration;
+export default RNVibrationFeedback;
