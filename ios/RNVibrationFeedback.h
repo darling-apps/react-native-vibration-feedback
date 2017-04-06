@@ -5,7 +5,7 @@
 #import <React/RCTBridgeModule.h>
 #endif
 
-@interface RNReactNativeVibration : NSObject <RCTBridgeModule>
+@interface RNVibrationFeedback : NSObject <RCTBridgeModule>
 
 @end
   

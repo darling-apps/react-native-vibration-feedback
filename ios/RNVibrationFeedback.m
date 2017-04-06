@@ -1,8 +1,8 @@
 
-#import "RNReactNativeVibration.h"
+#import "RNVibrationFeedback.h"
 #import <AudioToolbox/AudioServices.h>
 
-@implementation RNReactNativeVibration
+@implementation RNVibrationFeedback
 
 @synthesize bridge = _bridge;
 
